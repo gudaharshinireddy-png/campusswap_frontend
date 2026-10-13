@@ -105,7 +105,7 @@ function Register() {
         try {
 
             await axios.post(
-                "http://localhost:8080/api/users/register",
+                "https://campusswap-backend-g9t6.onrender.com/api/users/register",
                 {
                     name: formData.name,
                     email: formData.email,
